@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Party</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Nerko+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/external/all.min.css" />
+    <link rel="stylesheet" href="css/flipclock.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+
+
+    <section class="landingPage position-relative d-flex justify-content-center align-items-center">
+
+        <div class="sideBar position-fixed  h-100 top-0 ">
+            <div>
+                <div class="closeSide position-relative"><i class="fa-solid fa-xmark"></i></div>
+                    <ul class="list-unstyled">
+                        <li><a  id="Home" href="#Home">Home</a></li>
+                        <li><a id="singers" href="#Singers">Singers</a></li>
+                        <li><a id="Duration" href="#Duration">Duration</a></li>
+                        <li><a id="Contact" href="#Contact">Contact</a></li>
+                    </ul>
+
+                    <div class="OpenSide  align-items-center top-50 start-100 translate-middle-y  position-absolute">
+                        <i class="me-2 fa-solid fa-circle-chevron-right"></i>
+                        <span class="fw-bold ">Open</span>   
+                    </div>
+            </div>
+        </div>
+
+
+      <div class="landingContent d-flex flex-column justify-content-center align-items-center">
+        <h1 class="text-white">Let's Have Some Fun</h1>
+        <img src="./imgs/stock-vector-rock-night-party-poster-flyer-vintage-styled-vector-illustration-676250194.jpg"alt=""/>
+      </div>
+    </section>
+
+    <section id="Singers" class="singersOfParty py-5">
+      <div class="singersContent container m-auto">
+        <div class="row g-3">
+          <div class="forCursor col-lg-3 col-md-6">
+            
+            <div class="text-center SingerInfo">
+              <div class="singerInfoDown">
+                <h2>Weekend</h2>
+                <i  class="fa-solid fa-circle-down"></i>
+              </div>
+              <div class="img-para ">
+                <img class="w-100"src="./imgs/5c7b86cf7b0784c8e5562e7c8e737a3a.jpg"alt=""/>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,veritatis.</p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="forCursor col-lg-3 col-md-6">
+            <div class="text-center SingerInfo">
+              <div class="singerInfoDown">
+                <h2>Ed Sheeran</h2>
+                <i  class="fa-solid fa-circle-down"></i>
+              </div>
+
+              <div class="img-para ">
+                <img
+                class="w-100"
+                src="./imgs/ddaae50ef763eb0868ddc241b8450493.jpg"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+                veritatis.
+              </p>
+              </div>
+            </div>
+          </div>
+          <div class="forCursor col-lg-3 col-md-6">
+            <div class="text-center SingerInfo">
+              
+              <div class="singerInfoDown">
+                <h2>Ariana Grande</h2>
+                <i  class="fa-solid fa-circle-down"></i>
+              </div>
+
+              <div class="img-para ">
+                <img
+                class="w-100"
+                src="./imgs/406390770805f1ee270fb9c979d6cf7b.jpg"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+                veritatis.
+              </p>
+              </div>
+            </div>
+          </div>
+          <div class="forCursor col-lg-3 col-md-6">
+            <div class="text-center SingerInfo">
+              <div class="singerInfoDown">
+                <h2>Young Thug</h2>
+                <i  class="fa-solid fa-circle-down"></i>
+              </div>
+              <div class="img-para ">
+                <img
+                class="w-100"
+                src="./imgs/0908a4891eea09bcb700a9fcd75def3e.jpg"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+                veritatis.
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Duration" class="countDown py-5 text-center container m-auto">
+      <h2 class="text-white mb-5">Countdown Timer</h2>
+        <div class="clock d-flex justify-content-center"></div>
+      <!-- <div
+        class="wrapperCountdown mt-5 container w-50 d-flex justify-content-around align-items-center"
+      >
+        <div class="days">
+          <h3 class="text-white">Days</h3>
+          <p class="display-6 fw-bolder">01</p>
+        </div>
+        <div class="hours">
+          <h3 class="text-white">hours</h3>
+          <p class="display-6 fw-bolder">22</p>
+        </div>
+        <div class="Seconds">
+          <h3 class="text-white">Seconds</h3>
+          <p class="display-6 fw-bolder">57</p>
+        </div>
+      </div> -->
+    </section>
+
+    
+
+
+    <section id="Contact" class="contact py-5">
+
+        <div class="container w-50 text-center">
+
+            <h2>Join Us</h2>
+
+        <div>
+
+            <input placeholder="Enter Your Name" class="form-control mb-3" type="text" name="name" >
+            <input placeholder="Enter Your Email" class="form-control mb-3" type="email" name="email" >
+            <textarea maxlength="100" placeholder="Enter Your Message" class="form-control mb-3" name="message"></textarea>
+            <p><span id="Num" class="text-danger fw-bold">100</span> Charachter Remaining</p>
+            <button class="btn btn-danger">Send</button>
+
+        </div>
+
+
+
+        </div>
+
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-white text-muted">
+            <!-- Section: Social media -->
+            <section
+              class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+            >
+              <!-- Left -->
+              <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+              </div>
+              <!-- Left -->
+
+              <!-- Right -->
+              <div>
+                <a href="" class="me-4 link-secondary">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                  <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+              <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      <i class="fas fa-gem me-3 text-secondary"></i>Company name
+                    </h6>
+                    <p>
+                      Here you can use rows and columns to organize your footer
+                      content. Lorem ipsum dolor sit amet, consectetur
+                      adipisicing elit.
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+                    <p>
+                      <a href="#!" class="text-reset">Angular</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">React</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Vue</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Laravel</a>
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+                    <p>
+                      <a href="#!" class="text-reset">Pricing</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Settings</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Orders</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Help</a>
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                    <p>
+                      <i class="fas fa-home me-3 text-secondary"></i> New York,
+                      NY 10012, US
+                    </p>
+                    <p>
+                      <i class="fas fa-envelope me-3 text-secondary"></i>
+                      info@example.com
+                    </p>
+                    <p>
+                      <i class="fas fa-phone me-3 text-secondary"></i> + 01 234
+                      567 88
+                    </p>
+                    <p>
+                      <i class="fas fa-print me-3 text-secondary"></i> + 01 234
+                      567 89
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+              </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div
+              class="text-center p-4"
+              style="background-color: rgba(0, 0, 0, 0.025)"
+            >
+              © 2021 Copyright - made By mo-alaa
+            </div>
+            <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+    
+    <script src="./js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/flipclock.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

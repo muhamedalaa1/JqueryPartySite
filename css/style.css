@@ -1,0 +1,134 @@
+body{
+    font-family: 'Happy Monkey', cursive;
+}
+.landingPage{
+    height: 100vh;
+    background-image:linear-gradient(#a1534da4, #e83528a4),  url("../imgs/aleksandr-popov-hTv8aaPziOQ-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.landingContent img{
+
+    width: 300px;
+
+}
+
+
+.sideBar  {
+
+    background-color: #282424;
+    padding: 50px;
+    left: -201.5px;
+    
+}
+.sideBar  .closeSide {
+
+margin-bottom: 20px;
+}
+.sideBar  .closeSide i{
+
+color: #707070;
+cursor: pointer;
+font-size: 30px;
+transition: 0.3s all;
+
+}
+.sideBar  .closeSide i:hover{
+
+    color: #952821;
+
+
+}
+.OpenSide{
+    cursor: pointer;
+    display: flex;
+}
+.OpenSide span{
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.OpenSide i{
+    font-size: 25px;
+    cursor: pointer;
+
+
+}
+.sideBar ul li{
+
+    margin-bottom: 20px;
+    
+}
+.sideBar a {
+
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #707070;
+    transition: 0.3s all;
+}
+.sideBar a:hover {
+    color: #952821
+}
+.SingerInfo img{
+    height: 550px;
+    border-radius: 6px;
+}
+
+.fa-circle-down{
+
+        font-size: 25px;
+    cursor: pointer;
+
+
+}
+
+.img-para{
+    display: none;
+}
+
+.forCursor{
+    cursor: pointer;
+}
+
+
+
+.countDown{
+    background-image:linear-gradient(#614a48a4, #8c6c69a4), url("../imgs/photo-1533174072545-7a4b6ad7a6c3.avif");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.days p , .hours p , .Seconds p {
+    color: #707070;
+    background-color: #FFFFFF;
+        width: 125px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+/* footer */
+footer{
+        background-image:linear-gradient(#bba6a5a4, #ac9a99a4), url("../imgs/photo-1604147706283-d7119b5b822c.avif");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+footer a{
+    text-decoration: none;
+}
+/* footer */
+
+
+
+.flip-clock-label{
+
+    margin-top: 15px;
+    font-size: 25px;
+}
